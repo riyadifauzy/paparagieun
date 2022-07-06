@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan 1</title>
+</head>
+<body>
+    <script>
+        const dadang = [2,5,15,5]
+        const uud=10;
+        function atu(dadang,uud){
+            for(let i=0;i<dadang.length;i++){
+                for(let j=1;j<dadang.length;j++)
+                {
+                    if(i!==j){
+
+                        
+                        const budi= dadang[i] +dadang[j];
+                        if(budi===uud){
+                            const somad=[[i],[j]];
+                            return somad;
+                            
+                        }
+                    }
+                    
+                    
+                }
+                
+            }
+        }
+        const dedi=atu(dadang,uud);
+        console.info(dedi);
+    </script>
+</body>
+</html>
